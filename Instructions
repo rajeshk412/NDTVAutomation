@@ -1,0 +1,3 @@
+
+#To Execute via cmd prompt
+mvn clean test -DXmlFile=testng.xml

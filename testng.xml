@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weather Deatils">
+  <test name="GetWeatherDetailsFromUI">
+    <classes>
+      <class name="com.home.ndtv.NDTVAutomation.GetWeatherDetailsFromUI"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="GetWeatherDetailsFromApi">
+    <classes>
+      <class name="com.home.ndtv.NDTVAutomation.GetApiWeatherDetailsByApi"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="CompareWeatherDeatils">
+    <classes>
+      <class name="com.home.ndtv.NDTVAutomation.CompareTemperature"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
